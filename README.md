@@ -9,7 +9,7 @@ Soroban smart contracts for atomic IP swaps using USDC, IP registry, and ZK veri
 - **`ip_registry`**: Register and query IP assets with TTL.
 - **`zk_verifier`**: Merkle tree ZK proof verification with TTL.
 
-See [contracts/](/contracts/) for sources.
+See [contracts/](/contracts/) for sources and [docs/architecture.md](./docs/architecture.md) for sequence diagrams.
 
 ## Build & Test
 ```bash
