@@ -12,8 +12,26 @@ Soroban smart contracts for atomic IP swaps using USDC, IP registry, and ZK veri
 See [contracts/](/contracts/) for sources.
 
 ## Build & Test
+
+Build all contracts:
 ```bash
 ./scripts/build.sh
+```
+
+Build a specific contract:
+```bash
+./scripts/build.sh <contract_name>
+```
+
+Available contracts: `ip_registry`, `atomic_swap`, `zk_verifier`
+
+Example:
+```bash
+./scripts/build.sh atomic_swap
+```
+
+Run tests:
+```bash
 ./scripts/test.sh
 ```
 
